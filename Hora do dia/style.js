@@ -1,5 +1,5 @@
 function mostraHora() {
-    var mensagem = document.getElementById("mensagem")
+    var hora = document.getElementById("hora")
     var imagem = document.getElementById("imagem")
     var data = new Date()
     var hora = data.getHours()
